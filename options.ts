@@ -20,17 +20,18 @@ function loadOptions(): void {
 }
 function setFormTitles(): void {
   // console.log("set form titles");
+  
   const optionsTitle = chrome.i18n.getMessage("optionsTitle");
   const shortRemTitle = chrome.i18n.getMessage("shortRemTitle");
   const longRemTitle = chrome.i18n.getMessage("longRemTitle");
   const longRemMinMessage = chrome.i18n.getMessage("longRemMinMessage");
   const submitMessage = chrome.i18n.getMessage("submitMessage");
 
-  document.querySelector("legend").innerHTML = optionsTitle;
-  document.getElementById("shortRemTitle").innerHTML = shortRemTitle;
-  document.getElementById("longRemTitle").innerHTML = longRemTitle;
-  document.getElementById("longRemMinMessage").innerHTML = longRemMinMessage;
-  document.querySelector("button").innerHTML = submitMessage;
+  document.querySelector("legend").textContent  = optionsTitle;
+  document.getElementById("shortRemTitle").textContent  = shortRemTitle;
+  document.getElementById("longRemTitle").textContent  = longRemTitle;
+  document.getElementById("longRemMinMessage").textContent  = longRemMinMessage;
+  document.querySelector("button").textContent  = submitMessage;
 }
 function optionsLoaded(settings: PauseScreenSettings) {
   (document.querySelector("#remindInterval") as HTMLInputElement).value = settings.remindInterval.toString();

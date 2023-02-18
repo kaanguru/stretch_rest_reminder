@@ -15,5 +15,4 @@ WebExtension for Firefox. Set reminders to take...
 
 ## Install
 
-The addon is available on Mozialla addons page <https://addons.mozilla.org/en-US/firefox/addon/blink-reminder/>
-
+The addon is available on firefox [addons page](https://addons.mozilla.org/tr/firefox/addon/stretch-and-rest-reminder/)

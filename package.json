@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "dev:firefox": "web-ext run ",
-    "build:firefox": "web-ext build ",
+    "build:firefox": "web-ext  build --overwrite-dest",
     "build": "tsc .\\main.ts",
     "dev": "tsc --watch .\\main.ts"
   },
