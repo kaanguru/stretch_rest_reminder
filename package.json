@@ -11,7 +11,7 @@
   },
   "author": "Cem Kaan Kösalı",
   "license": "MPL-2.0",
-  "homepage": "https://github.com/kaanguru/araver",
+  "homepage": "https://github.com/kaanguru/stretch_rest_reminder",
   "devDependencies": {
     "@types/chrome": "0.0.213",
     "typescript": "^4.9.5",
