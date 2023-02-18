@@ -1,5 +1,7 @@
 # Stretch & Rest Reminder
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/kaanguru/stretch_rest_reminder/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/kaanguru/stretch_rest_reminder/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/kaanguru/stretch_rest_reminder/badges/build.png?b=master)](https://scrutinizer-ci.com/g/kaanguru/stretch_rest_reminder/build-status/master) ![GitHub package.json version](https://img.shields.io/github/package-json/v/kaanguru/stretch_rest_reminder)
+
 ![working woman](./img/computer.jpg)
 
 Firefox extention reminding you to give a break and look away from screen
