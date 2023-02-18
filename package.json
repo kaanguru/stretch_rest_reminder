@@ -1,6 +1,6 @@
 {
   "name": "stretch_rest_reminder",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "firefox extention reminding you to give a break and look away from screen",
   "main": "main.js",
   "scripts": {
