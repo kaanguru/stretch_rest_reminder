@@ -1,6 +1,6 @@
 {
   "name": "stretch_rest_reminder",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "firefox extention reminding you to give a break and look away from screen",
   "main": "./dist/main.js",
   "scripts": {
@@ -9,7 +9,6 @@
     "build": "tsc ",
     "dev": "tsc --watch"
   },
-
   "author": "Cem Kaan Kösalı",
   "license": "MPL-2.0",
   "homepage": "https://github.com/kaanguru/stretch_rest_reminder",
