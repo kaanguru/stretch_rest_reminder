@@ -1,0 +1,54 @@
+{
+  "extensionName": {
+    "message": "Esneme ve Mola Hatırlatıcı",
+    "description": "Name of the extension."
+  },
+  
+  "extensionDescription": {
+    "message": "Kısa mola hatırlatıcısı; esnemek, sağlıklı olmak için ekranınızdan uzağa bakmanızı hatırlatır. Program sizi sık sık mini duraklamalar ve dinlenme molaları için uyarır.",
+    "description": "Description of the extension."
+  },
+  "optionsTitle": {
+    "message": "Seçenekler",
+    "description": "Title of the options form."
+  },
+  "shortRemTitle": {
+    "message": "Kısa Hatırlatıcı Aralığı",
+    "description": "Title of Short Reminder Interval"
+  },
+  "longRemTitle": {
+    "message": "Uzun Hatırlatıcı Aralığı",
+
+    "description": "Title of Short Reminder Interval"
+  },
+  "longRemMinMessage": {
+    "message": "Uzum Mola Süresi",
+    "description": "Title ofLong Reminder Duration"
+  },
+  "submitMessage": {
+    "message": "Kayıt",
+    "description": "Submit button text."
+  },
+  "reminderTitle": {
+    "message": "Esneme Zamanı",
+    "description": "Title of the short  notification."
+  },
+  "breakTitle": {
+    "message": "Mola Zamanı",
+    "description": "Title of long notification."
+  },
+  "reminderContent": {
+    "message": "İşinize kısa bir ara verin, ekrandan başka bir yere bakın",
+    "description": "Tells the user to give a short break"
+  },
+  "breakContent": {
+    "message": "En azından $timeWithoutBreak$ dakikalık bir molar verirseniz iyi olur.",
+    "description": "Tells the user to give a long break",
+    "placeholders": {
+      "timeWithoutBreak": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  }
+}

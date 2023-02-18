@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "version": "0.1.0",
+  "description": "__MSG_extensionDescription__",
+  "background": {
+    "scripts": ["options.js", "main.js"]
+  },
+  "permissions": ["idle", "alarms", "notifications", "storage"],
+  "options_ui": {
+    "page": "options.html"
+  },
+  "icons": {
+    "32": "icons/icons8_stretching_32px.png",
+    "64": "icons/icons8_stretching_64px.png",
+    "100": "icons/icons8_stretching_100px.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/icons8_pause_32px.png",
+      "64": "icons/icons8_pause_64px.png"
+    },
+    "default_title": "Pause Screen Settings",
+    "default_popup": "options.html"
+  },
+  "default_locale": "en"
+}

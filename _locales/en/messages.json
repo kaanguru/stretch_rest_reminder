@@ -1,0 +1,52 @@
+{
+  "extensionName": {
+    "message": "Stretch and Rest Reminder",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Short break reminder; reminds you to look away from your screen to stretch, get healty. The program frequently alerts you to take micro-pauses and rest breaks.",
+    "description": "Description of the extension."
+  },
+  "optionsTitle": {
+    "message": "Options",
+    "description": "Title of the options form."
+  },
+  "shortRemTitle": {
+    "message": "Short Reminder Interval",
+    "description": "Title of Short Reminder Interval"
+  },
+  "longRemTitle": {
+    "message": "Long Reminder Interval",
+    "description": "Title of Short Reminder Interval"
+  },
+  "longRemMinMessage": {
+    "message": "Long Reminder Duration",
+    "description": "Title ofLong Reminder Duration"
+  },
+  "submitMessage": {
+    "message": "Save",
+    "description": "Submit button text."
+  },
+  "reminderTitle": {
+    "message": "Pause Time",
+    "description": "Title of the short  notification."
+  },
+  "breakTitle": {
+    "message": "Break Time",
+    "description": "Title of long notification."
+  },
+  "reminderContent": {
+    "message": "Take a short break from your work to stretch, get stronger",
+    "description": "Tells the user to give a short break"
+  },
+  "breakContent": {
+    "message": "You Better Give a break for $timeWithoutBreak$ minutes",
+    "description": "Tells the user to give a long break",
+    "placeholders": {
+      "timeWithoutBreak": {
+        "content": "$1",
+        "example": "5"
+      }
+    }
+  }
+}

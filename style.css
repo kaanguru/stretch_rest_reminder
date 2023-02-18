@@ -1,0 +1,35 @@
+html, body {
+    width: 180px;
+    font: menu;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  fieldset {
+    display: flex;
+    flex-direction: column;
+  }
+  input {
+    max-width: 4rem;
+    margin-bottom: 1rem;
+    border: 2px solid #808286 ;
+    border-radius: 3px;
+    float: right;
+  }
+
+  button {
+    border: none;
+    width: 100%;
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #e5ecf2;
+  }
+  
+  button:hover {
+    background-color: #cfddf2;
+  }
+  
