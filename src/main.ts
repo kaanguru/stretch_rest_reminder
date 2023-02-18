@@ -4,7 +4,7 @@ const breakTitle = chrome.i18n.getMessage("breakTitle");
 const breakContent = (s: string): string => chrome.i18n.getMessage("breakContent", s);
 const reminderTitle = chrome.i18n.getMessage("reminderTitle");
 const reminderContent = chrome.i18n.getMessage("reminderContent");
-const pauseIconUrls = ["icons/icons8_pause_64px.png", "icons/icons8_Body_Positive_Female_64px_1.png", "icons/jumping-man.png"];
+const pauseIconUrls = ["/icons/icons8_pause_64px.png", "/icons/icons8_Body_Positive_Female_64px_1.png", "/icons/jumping-man.png"];
 
 class PauseScreen {
   settings: PauseScreenSettings = null;
@@ -56,7 +56,7 @@ class PauseScreen {
       chrome.notifications.create("pause", {
         type: "basic",
         title: breakTitle,
-        iconUrl: "icons/icons8_stretching_64px.png",
+        iconUrl: "/icons/icons8_stretching_64px.png",
         message: breakContent(pauseReminder.settings.breakDuration.toString()),
       });
     } else {

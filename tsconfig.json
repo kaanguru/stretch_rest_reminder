@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ES5",
+    "target": "ES2018",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": false
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "rootDirs": ["src"]
   },
-  "exclude":["web-ext-artifacts"],
-  "compileOnSave": true
-
+  "exclude":["web-ext-artifacts","node_modules"],
+  "compileOnSave": true,
 }
