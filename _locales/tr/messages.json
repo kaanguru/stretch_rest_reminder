@@ -41,6 +41,14 @@
     "message": "İşinize kısa bir ara verin, ekrandan başka bir yere bakın",
     "description": "Tells the user to give a short break"
   },
+  "reminderContent2": {
+    "message": "Kendin için ayağa kalk",
+    "description": "Tells the user to give a short break"
+  },
+  "reminderContent3": {
+    "message": "Kendini fetheden en güçlü savaşçıdır.",
+    "description": "Tells the user to give a short break"
+  },
   "breakContent": {
     "message": "En azından $timeWithoutBreak$ dakikalık bir molar verirseniz iyi olur.",
     "description": "Tells the user to give a long break",

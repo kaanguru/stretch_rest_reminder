@@ -3,7 +3,7 @@
 const breakTitle = chrome.i18n.getMessage("breakTitle");
 const breakContent = (s: string): string => chrome.i18n.getMessage("breakContent", s);
 const reminderTitle = chrome.i18n.getMessage("reminderTitle");
-const reminderContent = chrome.i18n.getMessage("reminderContent");
+const reminderContents = [chrome.i18n.getMessage("reminderContent"), chrome.i18n.getMessage("reminderContent2"),chrome.i18n.getMessage("reminderContent3")];
 const pauseIconUrls = ["/icons/icons8_pause_64px.png", "/icons/icons8_Body_Positive_Female_64px_1.png", "/icons/jumping-man.png"];
 
 class PauseScreen {
@@ -62,11 +62,13 @@ class PauseScreen {
     } else {
       // console.log(`${timeForLogging}:  Short Pause, without break since  ${pauseReminder.timeWithoutBreak.toString()} minutes`);
       let randomIcon = pauseIconUrls[Math.floor(Math.random() * pauseIconUrls.length)];
+      let randomContent = reminderContents[Math.floor(Math.random() * reminderContents.length)];
+
       chrome.notifications.create("pause", {
         type: "basic",
         title: reminderTitle,
         iconUrl: randomIcon,
-        message: reminderContent,
+        message: randomContent,
       });
     }
   }

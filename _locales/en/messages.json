@@ -29,7 +29,7 @@
   },
   "reminderTitle": {
     "message": "Pause Time",
-    "description": "Title of the short  notification."
+    "description": "Title of the short notification."
   },
   "breakTitle": {
     "message": "Break Time",
@@ -37,6 +37,14 @@
   },
   "reminderContent": {
     "message": "Take a short break from your work to stretch, get stronger",
+    "description": "Tells the user to give a short break"
+  },
+  "reminderContent2": {
+    "message": "Stand up for yourself.",
+    "description": "Tells the user to give a short break"
+  },
+  "reminderContent3": {
+    "message": "He who conquers himself is the mightiest warrior.",
     "description": "Tells the user to give a short break"
   },
   "breakContent": {
