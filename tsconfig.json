@@ -4,11 +4,9 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "outDir": "dist",
     "baseUrl": "./src",
     "rootDirs": ["src"]
-  },
-  "exclude":["web-ext-artifacts","node_modules"],
-  "compileOnSave": true,
+  }
 }

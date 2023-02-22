@@ -3,7 +3,7 @@
     "message": "Esneme ve Mola Hatırlatıcı",
     "description": "Name of the extension."
   },
-  
+
   "extensionDescription": {
     "message": "Kısa mola hatırlatıcısı; esnemek, sağlıklı olmak için ekranınızdan uzağa bakmanızı hatırlatır. Program sizi sık sık mini duraklamalar ve dinlenme molaları için uyarır.",
     "description": "Description of the extension."
@@ -22,7 +22,7 @@
     "description": "Title of Short Reminder Interval"
   },
   "longRemMinMessage": {
-    "message": "Uzum Mola Süresi",
+    "message": "Uzun Mola Süresi",
     "description": "Title ofLong Reminder Duration"
   },
   "submitMessage": {
